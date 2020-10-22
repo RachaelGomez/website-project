@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+body {background-image: url("images/arles.jpeg");
+    background-color: antiquewhite;
+    background-repeat: repeat;}
+.menu {
+    font-family: Futura;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8d8f67;
+}
+li.menu {
+    float: left;
+}
+
+li.menu a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li.menu a:hover {
+    background-color: darkolivegreen;
+    color: lightgrey;
+}
